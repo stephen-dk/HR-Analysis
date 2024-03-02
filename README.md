@@ -4,7 +4,7 @@
 --
 ## Project Overview
 
-The aim of this data analytics project is to analyze an imaginary company's employee dataset with over 270 rows from the year 2018 to 2021,provide clearity and gain deeper understanding of this company data to answer questions and make data driven recomendations. 
+The aim of this data analytics project is to analyze an imaginary company's employee dataset with over 270 rows from the year 2018 to 2021,provide clarity and gain deeper understanding of this company data to answer questions and make data driven recommendations. 
 
 ## Data Source
 
@@ -14,7 +14,7 @@ HR data: The dataset used in this analysis is a ".xlsx" file,containing detailed
 
 1. Total number of employees.
 2. what is the department breakdown of employees in the company from highest to lowest.
-3. how many employees work remotly vs onsight.
+3. how many employees work remotly vs on site.
 4. what is the gender breakdown of employees in the company.
 5. what department is the highest paid.
 6. Top 10 highest paid employees.
@@ -34,13 +34,20 @@ UPDATE employees
 SET 
     start_date = DATE_FORMAT(STR_TO_DATE(start_date, '%m/%d/%Y'),'%Y/%m/%d');
 ```
-Dirty Data   |Clean Data
-:-----------:|:----------:
-![dirty_data](https://github.com/stephen-dk/HR-Analysis/assets/144712896/11a09668-3f60-425a-928e-c44750cab588)|![sql_table](https://github.com/stephen-dk/HR-Analysis/assets/144712896/eb36b515-73b7-48f3-ad0d-7336b5997f92)
+
+_Dirty Data_ ☹️
+![dirty_data](https://github.com/stephen-dk/HR-Analysis/assets/144712896/11a09668-3f60-425a-928e-c44750cab588)
+--
+
+_clean data_ 😄
+![sql_table](https://github.com/stephen-dk/HR-Analysis/assets/144712896/eb36b515-73b7-48f3-ad0d-7336b5997f92)
+--
+
 
 ## Data Visualization
 
 ![bi_img](https://github.com/stephen-dk/HR-Analysis/assets/144712896/1a6f0033-9666-4834-840c-77c6d68a9f61)
+---
 
 ## Summary And Findings
 
