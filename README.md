@@ -23,15 +23,22 @@ HR data: The dataset used in this analysis is a ".xlsx" file,containing detailed
 - SQL (Data loading, Data inspection, Data cleaning and Analysis).
 - Power BI (Visualization).
 
-### Data Cleaning
+## Data Preparation
 
-After loading and inspecting the dataset, It was discovered that the data needed to be worked on (cleaned) before proceding to analysis.
-
+The following tasks were performed in the preparation phase.
+1. data loading and inspection.
+2. Handling missing values.
+3. Data cleaning and formatting
+```sql
+UPDATE employees 
+SET 
+    start_date = DATE_FORMAT(STR_TO_DATE(start_date, '%m/%d/%Y'),'%Y/%m/%d');
+```
 Dirty Data   |Clean Data
 :-----------:|:----------:
 ![dirty_data](https://github.com/stephen-dk/HR-Analysis/assets/144712896/11a09668-3f60-425a-928e-c44750cab588)|![sql_table](https://github.com/stephen-dk/HR-Analysis/assets/144712896/eb36b515-73b7-48f3-ad0d-7336b5997f92)
 
-### Data Visualization
+## Data Visualization
 
 ![bi_img](https://github.com/stephen-dk/HR-Analysis/assets/144712896/1a6f0033-9666-4834-840c-77c6d68a9f61)
 
@@ -45,7 +52,7 @@ Dirty Data   |Clean Data
 - Marketing is the least populated department with a total of 12 employees.
 - the training department is on average the highest paid department.
 
-   
+
 
 
 
