@@ -35,7 +35,17 @@ Dirty Data |Clean Data
 
 ![bi_img](https://github.com/stephen-dk/HR-Analysis/assets/144712896/1a6f0033-9666-4834-840c-77c6d68a9f61)
 
+## Summary And Findings
 
+- The company has a total of 226 employees.
+- 51% of total employees are male and 49% cre female.
+- the company has way more employees working onsight than remotely.
+- _Edd  MacKnockiter, Collen Dunbleton, Ewart Hovel, Eilis Pavlasek, Shellysheldon Mahady, Alexis Gotfrey, Cletus McGarahan, Hogan Iles, Alic Bagg_ and _Westbrook Brandino_ are the top 10 most paid employees with salaries rangimg from $114k to $119k.
+- Product management is the most populated department with a total of 23 employees.
+- Marketing is the least populated department with a total of 12 employees.
+- the training department is on average the highest paid department.
+
+   
 
 
 
