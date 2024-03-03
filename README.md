@@ -46,7 +46,7 @@ _clean data_ 😄
 
 ## Data Visualization
 
-![bi_img](https://github.com/stephen-dk/HR-Analysis/assets/144712896/1a6f0033-9666-4834-840c-77c6d68a9f61)
+![bi_img2](https://github.com/stephen-dk/HR-Analysis/assets/144712896/ad7a2867-a53a-4743-9ca0-d024d175a3be)
 ---
 
 ## Summary And Findings
